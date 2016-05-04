@@ -1,0 +1,23 @@
+{
+    "name": "pauldo/lswoole",
+    "description": "Swoole manager for lumen and laravel",
+    "license": "Apache",
+    "authors": [
+        {
+            "name": "paul",
+            "email": "admin@pauldo.me"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/support": "5.1.*|5.2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pauldo\\Lswoole\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+}
